@@ -1,0 +1,201 @@
+@media only screen and (min-width: 0px) {    
+    html {
+        color: #222;
+        font-size: 1em;
+        line-height: 1.4;
+    }
+    
+    body{
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+    
+    ::-moz-selection {
+        background: #b3d4fc;
+        text-shadow: none;
+    }
+    
+    ::selection {
+        background: #b3d4fc;
+        text-shadow: none;
+    }
+    
+    /*
+     * A better looking default horizontal rule
+     */
+    
+    hr {
+        display: block;
+        height: 1px;
+        border: 0;
+        border-top: 1px solid #ccc;
+        margin: 1em 0;
+        padding: 0;
+    }
+    
+    /*
+     * Remove the gap between audio, canvas, iframes,
+     * images, videos and the bottom of their containers:
+     * https://github.com/h5bp/html5-boilerplate/issues/440
+     */
+    
+    audio,
+    canvas,
+    iframe,
+    img,
+    svg,
+    video {
+        vertical-align: middle;
+    }
+    
+    /*
+     * Remove default fieldset styles.
+     */
+    
+    fieldset {
+        border: 0;
+        margin: 0;
+        padding: 0;
+    }
+    
+    /*
+     * Allow only vertical resizing of textareas.
+     */
+    
+    textarea {
+        resize: vertical;
+    }
+    
+    /*
+      *  Fonts
+    */
+    
+    h1, h2, h3, h4, p, a, span, li {
+        font-family: 'Open Sans', sans-serif
+    }
+    
+    h1{
+        font-weight: 300;
+        font-size: 36px;
+        text-transform: uppercase;
+    }
+    
+    h2{
+        font-size: 32px;
+        text-decoration: underline;
+    }
+    
+    h3{
+        font-size: 28px;
+        font-weight: 300;
+    }
+    
+    p{
+        font-size: 18px;
+    }
+    
+    a{
+        font-weight: 300;
+    }
+    
+    a:visited, .visited{
+        color: #222;
+        text-decoration: none;
+    }
+    
+    /*
+      *  Colors
+    */
+    
+    .purple{
+        color: #8061FF;
+    }
+    
+    .purple-background{
+        background-color:#8061FF;
+    }
+    
+    .blue{
+        color: #54C5FF;
+    }
+    
+    .blue-background{
+        background-color: #54C5FF;
+    }
+    
+    .blue-background h2, .purple-background h2{
+        color: #fff;
+        color: rgba(255,255,255,.9);
+        margin: auto;
+    }
+    
+    .green-background h2{
+        color: #000;
+        color: rgba(0,0,0,.85);
+        margin: auto;
+    }
+    
+    .green{
+        color: #54FFC5;
+    }
+    
+    .green-background{
+        background-color: #54FFC5;
+    }
+    
+    span.purple, span.blue, span.green{
+        font-weight: 400;
+    }
+
+/*=================================
+------------STYLES-----------------
+=================================*/
+
+h1{
+    text-align: center;
+}
+
+header hr{
+    text-align: center;
+    width: 60%;
+    color: #8061FF;
+    margin: auto;
+}
+
+section{
+    padding: 10px;
+}
+
+.job-block{
+    margin-bottom: 50px;
+}
+
+.job-block h3{
+    margin-bottom: 0;
+}
+
+.job-block h4{
+    margin-top: 0;
+}
+
+.job-block ul li{
+    margin-bottom: 20px;
+}
+
+.date{
+    font-style: italic;
+}
+
+}
+
+@media only screen and (min-width: 600px) {    
+
+}
+
+@media only screen and (min-width: 800px) {    
+
+}
+
+@media only screen and (min-width: 1200px) {    
+
+}
