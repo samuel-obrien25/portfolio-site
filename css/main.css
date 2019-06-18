@@ -300,8 +300,8 @@ figcaption {
 
 .close-button .ham-top {
     -webkit-transform: rotate(90deg) translate(12px);
-    -ms-transform: rotate(90deg) translate(10px);
-    transform: rotate(90deg) translate(10px)
+    -ms-transform: rotate(90deg) translate(12px);
+    transform: rotate(90deg) translate(12px)
 }
 
 .close-button .ham-bottom {
