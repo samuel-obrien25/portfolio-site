@@ -413,7 +413,7 @@ section {
     height: 100vh;
     width: 100%;
     z-index: -100;
-    background-image: url(../img/hero2.jpg);
+    background-image: url(../img/onp.jpg);
     background-position: top;
     background-size: cover;
 }
@@ -464,8 +464,10 @@ section {
     font-size: 18px;
     -webkit-animation-delay: .25s;
     animation-delay: .25s;
-    position: relative;
-}
+    position: absolute;
+    top: 80%;
+    left: 0;
+    right: 0;}
 
 .section-copy p,
 footer,
@@ -799,6 +801,10 @@ footer ul li a:hover {
     .project-block {
         margin: 0 auto 20px;
         width: 45%
+    }
+    .project-block-image-wrapper{
+        max-height: 300px;
+        overflow: hidden;
     }
     .project-block p {
         margin-bottom: 100px
